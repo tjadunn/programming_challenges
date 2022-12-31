@@ -11,6 +11,10 @@ class ListNode:
         else:
             self.next.insert(val)
 
+    def delete_node(self, node):
+        node.val = node.next.val
+        node.next = node.next.nex
+
     def delete(self, index):
         temp = self
         counter = 0
