@@ -27,6 +27,8 @@ def longest_substring(input_string: str) -> int:
 
         Accepts (str): input_string in question
         Returns (str): length of longest substring
+
+    Runs in O(2n)
     """
 
     if input_string == "":
